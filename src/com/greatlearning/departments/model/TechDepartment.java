@@ -1,21 +1,21 @@
-package com.greatlearning.departments;
+package com.greatlearning.departments.model;
 
 public class TechDepartment extends SuperDepartment {
 
 	public String departmentName() {
-		return " Tech Department";
+		return "Tech Department";
 	}
-	
+
 	public String getTodaysWork() {
 		return "Complete coding of Module 1";
 	}
-	
+
 	public String getWorkDeadline() {
 		return "Complete by EOD";
 	}
-	
+
 	public String getTechStackInformation() {
 		return " Core Java";
 	}
-	
+
 }

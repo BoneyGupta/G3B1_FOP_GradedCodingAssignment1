@@ -1,17 +1,17 @@
-package com.greatlearning.departments;
+package com.greatlearning.departments.model;
 
-public class AdminDepartment extends SuperDepartment{
+public class AdminDepartment extends SuperDepartment {
 
 	public String departmentName() {
-		return " Admin Department";
+		return "Admin Department";
 	}
-	
+
 	public String getTodaysWork() {
 		return "Complete your documents submission";
 	}
-	
+
 	public String getWorkDeadline() {
 		return "Complete by EOD";
 	}
-	
+
 }
